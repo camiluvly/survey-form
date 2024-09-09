@@ -1,0 +1,18 @@
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    min-width: 300px; 
+    width: 60vw;
+    margin: 0 auto; 
+    padding: 2em;
+}
+
+fieldset {
+    border: none;
+    border-bottom: 3px solid #3b3b4f;
+    padding: 2rem 0; 
+}

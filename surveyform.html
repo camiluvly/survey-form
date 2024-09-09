@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <link rel="stylesheet" href="surveyform.css">
+    </head>
+    <body>
+        <p id="description">Thank you for taking the time to fill out this survey.</p>
+        <form id="survey-form" method="POST">
+            <fieldset>
+                <label id="name-label" for="name">Name: <br><input id="name" type="text" placeholder="Enter your name" required /></label><br>    
+            </fieldset>
+            <fieldset>
+                <label id="email-label" for="email">Email: <br><input id="email" type="email" placeholder="Enter your email" required /></label><br>
+            </fieldset>
+            <fieldset>
+                <label id="number-label" for="number">Age: (optional) <br><input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+            </fieldset>
+            <fieldset>
+                <label for="dropdown">What is your role? <br>
+                    <select id="dropdown">
+                        <option value="dropdown">(select one)</option>
+                        <option value="dropdown">Student</option>
+                        <option value="dropdown">Full Time Job</option>
+                        <option value="dropdown">Part-Time Job</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>How would you rate your freeCodeCamp experience? <br>
+                    <input type="radio" value="great" name="great" />Amazing<br>
+                    <input type="radio" value="great" name="great" />Great
+                </label><br>
+                <label>
+                    <input type="radio" value="good" name="good" />Pretty Good<br>
+                    <input type="radio" value="good" name="good" />Good
+                </label><br>
+                <label>
+                    <input type="radio" value="bad" name="bad" />Not so good<br>
+                    <input type="radio" value="bad" name="bad" />Bad
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    <input type="checkbox" value="lorem" />
+                </label><br>
+                <label>
+                    <input type="checkbox" value="ipsum" />
+                </label><br>
+            </fieldset>
+            <fieldset>
+                <label>Anything else to add?<br>
+                    <textarea id="additions" rows="3" cols="24"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <input id="submit" type="submit" /> 
+            </fieldset>
+        </form>
+    </body>
+</html>
